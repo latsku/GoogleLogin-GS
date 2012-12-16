@@ -1,0 +1,29 @@
+<?php
+/*
+*
+*  Fill in your application specific values
+*  from https://code.google.com/apis/consoleRename to this file and rename
+*  it to local_config.php
+*
+*/
+global $apiConfig;
+$apiConfig = array(
+
+    // The application_name is included in the User-Agent HTTP header.
+    'application_name' => '',
+
+    // OAuth2 Settings, you can get these keys at https://code.google.com/apis/console
+    'oauth2_client_id' => '',
+    'oauth2_client_secret' => '',
+    'oauth2_redirect_uri' => '',
+
+    // The developer key, you get this at https://code.google.com/apis/console
+    'developer_key' => '',
+
+    // Site name to show in the Google's OAuth 1 authentication screen.
+    'site_name' => '',
+
+    // Once your ready change this to auto.
+    'oauth2_approval_prompt' => 'force'
+
+);

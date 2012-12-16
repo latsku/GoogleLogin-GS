@@ -1,0 +1,6 @@
+[submodule "GoogleLogin/css"]
+	path = GoogleLogin/css
+	url = git://github.com/necolas/css3-social-signin-buttons.git
+[submodule "GoogleLogin/php"]
+	path = GoogleLogin/php
+	url = svn://google-api-php-client.googlecode.com/svn/trunk/
