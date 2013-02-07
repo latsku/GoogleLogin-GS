@@ -3,7 +3,7 @@
 /*
 Plugin Name: Google Login
 Description: Allows login with Google account
-Version: 0.1
+Version: 0.5
 Author: Lari Lehtomäki
 Author URI: http://latsku.fi
 */
@@ -18,7 +18,7 @@ define('__ROOT__', dirname(dirname(__FILE__)));
 register_plugin(
         $thisfile,
 	$thisfile,
-        '0.1',
+        '0.5',
         'Lari Lehtomäki',
         'http://latsku.fi/',
         'Allows login with Google account',
