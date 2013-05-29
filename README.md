@@ -16,4 +16,6 @@ Activate and configure plugin through plugin management.
 Known Issues
 ------------
 
-Only way to link GetSimple user and Google account is to change GetSimple accounts email address to Google accounts email address.
+* Only way to link GetSimple user and Google account is to change GetSimple accounts email address to Google accounts email address.
+
+* Uses pseudoauthentication instead of OpenID Connect based authentication. Maybe minor detail, but still an issue. Look at http://en.wikipedia.org/wiki/OAuth#OpenID_vs._pseudo-authentication_using_OAuth to understand the difference.
